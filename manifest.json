@@ -15,5 +15,8 @@
       "<all_urls>"
     ],
     "js": ["bears.js"]
-  }]
+  }],
+  "background": {
+    "scripts": ["background.js"]
+  }
 }
