@@ -13,9 +13,8 @@ console.log('In order to be a bear, you must first think like a bear.');
 
 let filenames = ["relax-6.jpg","relax-7.jpg"];
 
-for (let i = 0; i < 5; i++) {
-  let offset = i+1;
-  filenames.push("relax-" + offset + ".png");
+for (let i = 0; i < 4; i++) {
+  filenames.push("relax-" + i + ".png");
   console.log(filenames);
 }
 
